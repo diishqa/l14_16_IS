@@ -116,9 +116,41 @@ body {
 }
 
 @media (max-width: 768px) {
-    .card { width: 45%; }
+    .card {
+    border: 1px solid #fde1e9;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;   
+    background: #fff0f5;
+    }
+    .card img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
 }
 
 @media (max-width: 576px) {
-    .card { width: 100%; }
+    .card {
+    border: 1px solid #fde1e9;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;   
+    background: #fff0f5;
+    }
+    .card img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
 }
